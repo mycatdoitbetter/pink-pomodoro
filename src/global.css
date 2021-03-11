@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+ --white: #fff;
+ --background: #F2F3F5;
+ --main-pink: #FF75A0;
+ --opacity-pink: #FFB8B8;
+ --text: #2E384D;
+}
+
+@media(max-width: 1080px){
+  html {
+    font-size: 93.75%
+  }
+}
+
+@media(max-width: 720px){
+  html {
+    font-size: 87.5%
+  }
+}
+
